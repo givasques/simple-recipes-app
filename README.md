@@ -39,19 +39,50 @@ Abra a caixinha, veja as comidinhas girando e descubra uma receita nova, com tod
 
 ## 🚀 Como rodar
 
-A página lê o `recepies.json` pelo navegador, então ela precisa ser aberta por um **servidor local**. Abrir o `index.html` com duplo clique não funciona.
+A página lê o `recepies.json` pelo navegador, então ela precisa ser aberta por um **servidor local**. Abrir o `index.html` com duplo clique não funciona (o navegador bloqueia a leitura do arquivo).
+
+Primeiro, baixe o projeto:
 
 ```bash
-python3 -m http.server 8000
+git clone https://github.com/givasques/app-simple-recepies.git
+cd app-simple-recepies
 ```
 
-Depois abra **http://localhost:8000** no navegador.
+Depois escolha **uma** das opções abaixo, rodando o comando dentro da pasta do projeto.
 
-### No GitHub Codespaces
+### Opção 1 · VS Code + Live Server (mais fácil)
 
-1. Rode o comando acima no terminal.
-2. Abra a aba **Portas** (Ports) no painel de baixo.
-3. Clique no ícone 🌐 da porta **8000**.
+1. Abra a pasta do projeto no VS Code.
+2. Instale a extensão **Live Server** (de Ritwick Dey).
+3. Clique com o botão direito no `index.html` → **Open with Live Server**.
+
+O jogo abre sozinho no navegador. Funciona em Windows, macOS e Linux.
+
+### Opção 2 · Python
+
+| Sistema | Comando |
+|---|---|
+| 🪟 Windows (PowerShell ou CMD) | `py -m http.server 8000` |
+| 🍎 macOS | `python3 -m http.server 8000` |
+| 🐧 Linux | `python3 -m http.server 8000` |
+
+> No Windows, se `py` não funcionar, tente `python -m http.server 8000`. Se o Python não estiver instalado, baixe em [python.org](https://www.python.org/downloads/).
+
+### Opção 3 · Node.js
+
+Se você já tem o [Node.js](https://nodejs.org/) instalado (qualquer sistema):
+
+```bash
+npx serve -l 8000
+```
+
+Em qualquer opção do terminal, abra **http://localhost:8000** no navegador. Para parar o servidor, use **Ctrl+C**.
+
+### Opção 4 · GitHub Codespaces (sem instalar nada)
+
+1. No GitHub, clique em **Code → Codespaces → Create codespace**.
+2. No terminal que abrir, rode `python3 -m http.server 8000`.
+3. Abra a aba **Portas** (Ports) no painel de baixo e clique no ícone 🌐 da porta **8000**.
 
 > Quer mostrar para alguém? Clique com o botão direito na porta 8000 → **Visibilidade da porta** → **Pública**.
 
