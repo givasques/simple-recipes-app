@@ -1,0 +1,221 @@
+{
+    "pratos_usuario": [
+        {
+            "id": 1,
+            "nome": "Panqueca de carne moída com molho de tomate",
+            "proteina_principal": "Carne moída",
+            "preparo": "Frigideira e forno/micro-ondas",
+            "ingredientes": [
+                "Carne moída (patinho ou acém)",
+                "Ovo",
+                "Farinha de aveia ou trigo",
+                "Leite",
+                "Tomates pelados ou passata de tomate",
+                "Manjericão fresco",
+                "Queijo mussarela",
+                "Queijo parmesão ralado (para polvilhar)",
+                "Cebola, alho e temperos a gosto"
+            ]
+        },
+        {
+            "id": 2,
+            "nome": "Escondidinho de carne moída",
+            "proteina_principal": "Carne moída",
+            "preparo": "Forno ou airfryer",
+            "ingredientes": [
+                "Carne moída",
+                "Batata inglesa ou mandioca",
+                "Queijo mussarela",
+                "Requeijão light (opcional)",
+                "Leite",
+                "Manteiga ou azeite",
+                "Cebola, alho e cheiro-verde"
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Potinho de carne moída recheado com purê de batata",
+            "proteina_principal": "Carne moída",
+            "preparo": "Forno ou airfryer",
+            "ingredientes": [
+                "Carne moída (para moldar a base/cestinha)",
+                "Batata inglesa",
+                "Queijo mussarela",
+                "Leite",
+                "Aveia em flocos finos (para dar liga na carne)",
+                "Cebola, alho e páprica"
+            ]
+        },
+        {
+            "id": 4,
+            "nome": "Pastelzinho assado recheado com frango e requeijão",
+            "proteina_principal": "Frango desfiado",
+            "preparo": "Forno ou airfryer",
+            "ingredientes": [
+                "Peito de frango desfiado",
+                "Requeijão cremoso (pode ser light)",
+                "Queijo mussarela",
+                "Massa de pastel de forno (ou massa caseira de iogurte com farinha)",
+                "Gema de ovo (para pincelar)",
+                "Queijo parmesão ralado (opcional para finalizar)",
+                "Orégano e tomate picado"
+            ]
+        },
+        {
+            "id": 5,
+            "nome": "Lasanha de carne moída com molho ao sugo",
+            "proteina_principal": "Carne moída",
+            "preparo": "Forno",
+            "ingredientes": [
+                "Carne moída",
+                "Massa de lasanha pré-cozida (ou fatias de abobrinha)",
+                "Tomates pelados ou passata de tomate",
+                "Manjericão fresco",
+                "Queijo mussarela",
+                "Queijo parmesão ralado (para gratinar por cima)",
+                "Cebola e alho"
+            ]
+        },
+        {
+            "id": 6,
+            "nome": "Strogonoff com arroz e batata palha",
+            "proteina_principal": "Frango ou carne em tiras/cubos",
+            "preparo": "Panela",
+            "ingredientes": [
+                "Peito de frango ou patinho em cubos",
+                "Passata de tomate ou extrato",
+                "Creme de leite leve ou iogurte natural",
+                "Mostarda e ketchup",
+                "Arroz branco ou integral",
+                "Batata palha assada (sem fritura)"
+            ]
+        },
+        {
+            "id": 7,
+            "nome": "Macarrão à bolonhesa",
+            "proteina_principal": "Carne moída",
+            "preparo": "Panela",
+            "ingredientes": [
+                "Macarrão (espaguete, penne ou parafuso)",
+                "Carne moída",
+                "Tomates pelados ou passata de tomate",
+                "Manjericão fresco",
+                "Queijo mussarela ralado",
+                "Queijo parmesão ralado (para finalizar)",
+                "Cenoura ralada (opcional para o molho)",
+                "Cebola, alho e orégano"
+            ]
+        },
+        {
+            "id": 8,
+            "nome": "Hambúrguer saudável com patinho e salada",
+            "proteina_principal": "Carne moída (patinho)",
+            "preparo": "Frigideira antiaderente ou airfryer",
+            "ingredientes": [
+                "Patinho moído",
+                "Pão de hambúrguer (tradicional ou integral)",
+                "Queijo mussarela",
+                "Alface e tomate",
+                "Cebola roxa",
+                "Sal, pimenta e alho em pó"
+            ]
+        },
+        {
+            "id": 9,
+            "nome": "Batata cozida com casca recheada de frango na airfryer",
+            "proteina_principal": "Frango desfiado",
+            "preparo": "Micro-ondas/panela + Airfryer",
+            "ingredientes": [
+                "Batata inglesa grande (com casca bem lavada)",
+                "Peito de frango desfiado",
+                "Requeijão ou creme de ricota",
+                "Queijo mussarela",
+                "Azeite, sal e orégano"
+            ]
+        },
+        {
+            "id": 10,
+            "nome": "Abobrinha ou berinjela recheada com carne moída",
+            "proteina_principal": "Carne moída",
+            "preparo": "Forno ou airfryer",
+            "ingredientes": [
+                "Abobrinha italiana ou berinjela cortada ao meio",
+                "Carne moída refogada",
+                "Tomates pelados ou passata de tomate",
+                "Manjericão fresco",
+                "Queijo mussarela",
+                "Cebola, alho e orégano"
+            ]
+        },
+        {
+            "id": 11,
+            "nome": "Torta rápida de liquidificador de frango com legumes",
+            "proteina_principal": "Frango desfiado",
+            "preparo": "Forno ou airfryer",
+            "ingredientes": [
+                "Peito de frango desfiado",
+                "Ovos, leite e farinha de aveia (para a massa)",
+                "Fermento em pó",
+                "Milho, ervilha ou cenoura ralada",
+                "Queijo mussarela",
+                "Queijo parmesão ralado (para polvilhar sobre a massa)",
+                "Requeijão"
+            ]
+        },
+        {
+            "id": 12,
+            "nome": "Almôndegas de carne moída assadas ao sugo",
+            "proteina_principal": "Carne moída",
+            "preparo": "Airfryer + Panela",
+            "ingredientes": [
+                "Carne moída",
+                "Ovo e farelo de aveia (para dar liga)",
+                "Tomates pelados ou passata de tomate",
+                "Manjericão fresco",
+                "Queijo mussarela (para gratinar)",
+                "Queijo parmesão ralado (para finalizar)",
+                "Cebola, alho e cheiro-verde"
+            ]
+        },
+        {
+            "id": 13,
+            "nome": "Rap10 (wrap) tostado de carne moída ou frango",
+            "proteina_principal": "Carne moída ou frango desfiado",
+            "preparo": "Frigideira ou sanduicheira",
+            "ingredientes": [
+                "Massa de wrap (Rap10 tradicional ou integral)",
+                "Carne moída refogada ou frango desfiado",
+                "Queijo mussarela",
+                "Tomate picado e alface",
+                "Requeijão"
+            ]
+        },
+        {
+            "id": 14,
+            "nome": "Fricassê de frango saudável (sem batata palha frita)",
+            "proteina_principal": "Frango desfiado",
+            "preparo": "Liquidificador + Forno/Airfryer",
+            "ingredientes": [
+                "Peito de frango desfiado",
+                "Milho verde",
+                "Requeijão light ou creme de ricota",
+                "Leite ou água do cozimento do frango",
+                "Queijo mussarela",
+                "Batata palha assada para finalizar"
+            ]
+        },
+        {
+            "id": 15,
+            "nome": "Rocambole de carne moída recheado com mussarela e legumes",
+            "proteina_principal": "Carne moída",
+            "preparo": "Forno ou airfryer",
+            "ingredientes": [
+                "Carne moída",
+                "Creme de cebola ou aveia (para dar liga)",
+                "Queijo mussarela fatiado",
+                "Cenoura ralada e espinafre (ou vagem)",
+                "Tomates pelados ou passata de tomate com manjericão (para pincelar)"
+            ]
+        }
+    ]
+}
