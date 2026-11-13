@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caixa Surpresa de Receitas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="sprite brand-icon" src="FreePixelFood/Assets/FreePixelFood/Sprite/Food/Cheese.png" alt="">
+      <h1>Caixa Surpresa</h1>
+      <img class="sprite brand-icon" src="FreePixelFood/Assets/FreePixelFood/Sprite/Food/Tomato.png" alt="">
+    </div>
+    <p class="subtitle">Abra a caixinha e descubra o que cozinhar hoje!</p>
+    <button class="sound-btn" id="soundBtn" type="button" aria-pressed="true" title="Som ligado/desligado">♪ ON</button>
+  </header>
+
+  <main>
+    <nav class="filters" aria-label="Filtrar por proteína">
+      <button class="chip is-active" data-filter="all" type="button">Tudo</button>
+      <button class="chip" data-filter="carne" type="button">
+        <img class="sprite" src="FreePixelFood/Assets/FreePixelFood/Sprite/Food/Steak.png" alt=""> Carne
+      </button>
+      <button class="chip" data-filter="frango" type="button">
+        <img class="sprite" src="FreePixelFood/Assets/FreePixelFood/Sprite/Food/ChickenLeg.png" alt=""> Frango
+      </button>
+    </nav>
+
+    <section class="stage" id="stage">
+      <div class="rays" aria-hidden="true"></div>
+      <div class="sparkles" aria-hidden="true"></div>
+
+      <div class="bubble" id="bubble" aria-hidden="true">
+        <img class="sprite" id="bubbleImg" src="FreePixelFood/Assets/FreePixelFood/Sprite/Food/Cookie.png" alt="">
+        <span class="bubble-q" id="bubbleQ">?</span>
+      </div>
+
+      <button class="gift" id="gift" type="button" aria-label="Abrir a caixa surpresa">
+        <canvas class="gift-lid" id="lid"></canvas>
+        <canvas class="gift-body" id="body"></canvas>
+        <img class="hero" id="hero" alt="">
+      </button>
+      <div class="ground" aria-hidden="true"></div>
+
+      <p class="hint" id="hint">▶ clique na caixa para abrir ◀</p>
+      <div class="confetti" id="confetti" aria-hidden="true"></div>
+    </section>
+
+    <section class="album" aria-labelledby="albumTitle">
+      <div class="album-head">
+        <h2 id="albumTitle">Álbum de receitas</h2>
+        <span class="counter" id="counter">0/0</span>
+      </div>
+      <div class="progress"><div class="progress-fill" id="progress"></div></div>
+      <ul class="album-grid" id="albumGrid"></ul>
+      <button class="link-btn" id="resetBtn" type="button">recomeçar coleção</button>
+    </section>
+  </main>
+
+  <div class="overlay" id="overlay" hidden>
+    <article class="card pixel-frame" role="dialog" aria-modal="true" aria-labelledby="cardTitle" id="card">
+      <span class="badge-new" id="badgeNew" hidden>NOVA!</span>
+      <div class="plate"><img class="sprite" id="cardImg" alt=""></div>
+      <p class="card-num" id="cardNum"></p>
+      <h2 id="cardTitle"></h2>
+      <div class="tags">
+        <span class="tag tag-protein" id="cardProtein"></span>
+        <span class="tag tag-prep" id="cardPrep"></span>
+      </div>
+      <h3>Ingredientes</h3>
+      <ul class="ingredients" id="cardIngredients"></ul>
+      <div class="card-actions">
+        <button class="btn btn-primary" id="againBtn" type="button">Abrir outra caixa</button>
+        <button class="btn" id="closeBtn" type="button">Fechar</button>
+      </div>
+    </article>
+  </div>
+
+  <footer class="credits">Pixel art: FreePixelFood · receitas: recepies.json</footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
